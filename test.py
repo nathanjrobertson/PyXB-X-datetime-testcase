@@ -23,6 +23,6 @@ from dateutil.relativedelta import relativedelta
 from generated import protocol
 
 period = protocol.someType()
-period.oneDate = date.today() + relativedelta(months = + 2)
 period.lastUpdated = datetime.now()
+period.oneDate = date.today() + relativedelta(months = + 2)
 period.twoDate = period.oneDate + relativedelta(days = -3)
