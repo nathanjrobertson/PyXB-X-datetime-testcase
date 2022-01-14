@@ -5,6 +5,7 @@
 	<xsd:element name="someType">
         <xsd:complexType>
             <xsd:sequence>
+                <xsd:element name="zeroDate" type="xsd:date" />
                 <xsd:element name="oneDate" type="xsd:date" />
                 <xsd:element name="twoDate" type="xsd:date"/>
                 <xsd:element name="lastUpdated" type="xsd:dateTime" />
