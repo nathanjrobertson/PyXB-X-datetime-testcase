@@ -1,0 +1,14 @@
+<xsd:schema jxb:version="2.0" xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:test="http://test.com/test"
+	targetNamespace="http://test.com/test">
+
+	<xsd:element name="someType">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="oneDate" type="xsd:date" />
+                <xsd:element name="twoDate" type="xsd:date"/>
+                <xsd:element name="lastUpdated" type="xsd:dateTime" />
+            </xsd:sequence>
+        </xsd:complexType>
+	</xsd:element>
+</xsd:schema>
